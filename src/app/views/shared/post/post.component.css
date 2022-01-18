@@ -8,6 +8,10 @@ article>header{
     display: flex;
     align-items: center;
     gap: 10px;
+
+    cursor: pointer;
+
+    transition: .2s;
 }
 article>header>div>p{
     font-size: 18px;
@@ -81,4 +85,3 @@ article>footer>h3:hover{
 article>footer>div{
     display: flex;
 }
-

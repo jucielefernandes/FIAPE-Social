@@ -14,10 +14,11 @@ export class PostDetailComponent implements OnInit {
     private route: ActivatedRoute
   ) { }
 
+
+
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
-      console.log(params)
-      this.post = params.get("post")
+      this.post = params.get("postId")
 
     })
   }
