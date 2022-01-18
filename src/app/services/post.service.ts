@@ -62,4 +62,8 @@ private posts: any = [
   getPosts(){
     return this.posts;
   }
+
+  getPostById(postId: number){
+return this.posts.find((post: any) => post.id === postId);
+  }
 }
